@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blsbiner08f18"
-path="res://.godot/imported/jellyfish_PNG44-1949837823.png-fc1d753f6b23e307dc696ce59a1c0609.ctex"
+uid="uid://cn6tl3vx8xoaa"
+path="res://.godot/imported/icon.svg-8193eb3d66a1b5143b8bb4c28c1dc139.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://jellyfish_PNG44-1949837823.png"
-dest_files=["res://.godot/imported/jellyfish_PNG44-1949837823.png-fc1d753f6b23e307dc696ce59a1c0609.ctex"]
+source_file="res://Assets/icon.svg"
+dest_files=["res://.godot/imported/icon.svg-8193eb3d66a1b5143b8bb4c28c1dc139.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
