@@ -1,17 +1,30 @@
-[gd_scene load_steps=4 format=3 uid="uid://bromvgll7x5hr"]
+[gd_scene load_steps=6 format=3 uid="uid://bromvgll7x5hr"]
 
 [ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://Assets/icon.svg" id="1_7els5"]
+<<<<<<< HEAD:GodotProject/Individual Scenes/main.tscn
 [ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://Individual Scenes/john.tscn" id="2_pibgj"]
 [ext_resource type="PackedScene" uid="uid://dagk64wujnm7t" path="res://Individual Scenes/william.tscn" id="3_wu4is"]
+=======
+[ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://IndividualScenes/john.tscn" id="2_pibgj"]
+[ext_resource type="PackedScene" uid="uid://dagk64wujnm7t" path="res://IndividualScenes/william.tscn" id="3_wu4is"]
+[ext_resource type="PackedScene" uid="uid://c3avmuwuubjcn" path="res://IndividualScenes/Ryan.tscn" id="4_ooo6o"]
+[ext_resource type="PackedScene" uid="uid://frs5ln44np6r" path="res://IndividualScenes/yunlong.tscn" id="5_12xtb"]
+>>>>>>> 61c94c105039f920db3f73b9347ce59895165a76:GodotProject/main.tscn
 
 [node name="MAIN" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(1030, 559)
+position = Vector2(298, 233)
 texture = ExtResource("1_7els5")
 
-[node name="John" parent="." instance=ExtResource("2_pibgj")]
-position = Vector2(147, 79)
-
 [node name="William" parent="." instance=ExtResource("3_wu4is")]
-position = Vector2(630, 224)
+position = Vector2(127, -30)
+
+[node name="John" parent="." instance=ExtResource("2_pibgj")]
+position = Vector2(231, -15)
+
+[node name="Node2D" parent="." instance=ExtResource("4_ooo6o")]
+position = Vector2(162, 355)
+
+[node name="Yunlong" parent="." instance=ExtResource("5_12xtb")]
+position = Vector2(-216, 175)
