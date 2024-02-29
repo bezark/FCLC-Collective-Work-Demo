@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dagk64wujnm7t"]
-
-[ext_resource type="Texture2D" uid="uid://blsbiner08f18" path="res://Assets/jellyfish_PNG44-1949837823.png" id="1_j6vq6"]
-
-[node name="William" type="Node2D"]
-
-[node name="JellyfishPng44-1949837823" type="Sprite2D" parent="."]
-position = Vector2(185, 220)
-texture = ExtResource("1_j6vq6")

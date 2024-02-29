@@ -1,10 +1,26 @@
-[gd_scene load_steps=3 format=3 uid="uid://btdn0bgxt1kv5"]
+[gd_scene load_steps=7 format=3 uid="uid://btdn0bgxt1kv5"]
 
-[ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://icon.svg" id="1_tch5d"]
+[ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://Assets/icon.svg" id="1_tch5d"]
 [ext_resource type="Script" path="res://Icon.gd" id="2_m1ttt"]
+[ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://Individual Scenes/john.tscn" id="3_tdvn5"]
+[ext_resource type="PackedScene" uid="uid://c3avmuwuubjcn" path="res://Individual Scenes/Ryan.tscn" id="4_1xwqf"]
+[ext_resource type="PackedScene" uid="uid://dagk64wujnm7t" path="res://Individual Scenes/william.tscn" id="5_evf3y"]
+[ext_resource type="PackedScene" uid="uid://frs5ln44np6r" path="res://Individual Scenes/yunlong.tscn" id="6_jxi7t"]
 
 [node name="Icon" type="Sprite2D"]
 position = Vector2(279, 254)
 scale = Vector2(2.98438, 3.01562)
 texture = ExtResource("1_tch5d")
 script = ExtResource("2_m1ttt")
+
+[node name="John" parent="." instance=ExtResource("3_tdvn5")]
+position = Vector2(260.021, 57.0364)
+
+[node name="Node2D" parent="." instance=ExtResource("4_1xwqf")]
+position = Vector2(181.277, -10.2798)
+
+[node name="William" parent="." instance=ExtResource("5_evf3y")]
+position = Vector2(64.6701, -159.834)
+
+[node name="Yunlong" parent="." instance=ExtResource("6_jxi7t")]
+position = Vector2(81.0889, -263.296)
