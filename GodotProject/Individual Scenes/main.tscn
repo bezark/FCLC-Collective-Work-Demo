@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://bromvgll7x5hr"]
 
-[ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://icon.svg" id="1_7els5"]
-[ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://john.tscn" id="2_pibgj"]
-[ext_resource type="PackedScene" path="res://william.tscn" id="3_wu4is"]
+[ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://Assets/icon.svg" id="1_7els5"]
+[ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://Individual Scenes/john.tscn" id="2_pibgj"]
+[ext_resource type="PackedScene" uid="uid://dagk64wujnm7t" path="res://Individual Scenes/william.tscn" id="3_wu4is"]
 
 [node name="MAIN" type="Node2D"]
 
