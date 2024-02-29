@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://frs5ln44np6r"]
+
+[ext_resource type="Texture2D" uid="uid://b8h0o5k2mduj0" path="res://cat what.jpg" id="1_fj4ba"]
+
+[node name="Yunlong" type="Node2D"]
+
+[node name="CatWhat" type="Sprite2D" parent="."]
+position = Vector2(410, 209)
+texture = ExtResource("1_fj4ba")
