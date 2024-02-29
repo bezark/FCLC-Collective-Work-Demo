@@ -14,6 +14,7 @@
 [node name="MAIN" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
+
 position = Vector2(298, 233)
 texture = ExtResource("1_7els5")
 
@@ -27,4 +28,4 @@ position = Vector2(231, -15)
 position = Vector2(162, 355)
 
 [node name="Yunlong" parent="." instance=ExtResource("5_12xtb")]
-position = Vector2(-216, 175)
+position = Vector2(-370, 343)
