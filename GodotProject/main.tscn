@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://bromvgll7x5hr"]
 
 [ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://Assets/icon.svg" id="1_7els5"]
-[ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://IndividualScenes/john.tscn" id="2_pibgj"]
+[ext_resource type="PackedScene" uid="uid://cdlw4jx52aiwn" path="res://IndividualScenes/john.tscn" id="2_pibgj"]
 [ext_resource type="PackedScene" uid="uid://dagk64wujnm7t" path="res://IndividualScenes/william.tscn" id="3_wu4is"]
 [ext_resource type="PackedScene" uid="uid://c3avmuwuubjcn" path="res://IndividualScenes/Ryan.tscn" id="4_ooo6o"]
 [ext_resource type="PackedScene" uid="uid://frs5ln44np6r" path="res://IndividualScenes/yunlong.tscn" id="5_12xtb"]
@@ -9,18 +9,22 @@
 [node name="MAIN" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-
-position = Vector2(298, 233)
+modulate = Color(1, 0, 0, 1)
+position = Vector2(234, 136)
 texture = ExtResource("1_7els5")
 
 [node name="William" parent="." instance=ExtResource("3_wu4is")]
-position = Vector2(127, -30)
+modulate = Color(1, 0, 0, 1)
+position = Vector2(602, 134)
 
 [node name="John" parent="." instance=ExtResource("2_pibgj")]
+modulate = Color(1, 0, 0, 1)
 position = Vector2(231, -15)
 
 [node name="Node2D" parent="." instance=ExtResource("4_ooo6o")]
+modulate = Color(1, 0, 0, 1)
 position = Vector2(162, 355)
 
 [node name="Yunlong" parent="." instance=ExtResource("5_12xtb")]
-position = Vector2(-370, 343)
+modulate = Color(1, 0, 0, 1)
+position = Vector2(442, 284)
