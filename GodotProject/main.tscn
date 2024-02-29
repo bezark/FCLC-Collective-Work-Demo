@@ -1,10 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://bromvgll7x5hr"]
+[gd_scene load_steps=4 format=3 uid="uid://bromvgll7x5hr"]
 
 [ext_resource type="Texture2D" uid="uid://cn6tl3vx8xoaa" path="res://icon.svg" id="1_7els5"]
+[ext_resource type="PackedScene" uid="uid://cp4rh44wjj7w4" path="res://john.tscn" id="2_pibgj"]
+[ext_resource type="PackedScene" path="res://william.tscn" id="3_wu4is"]
 
 [node name="MAIN" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-
 position = Vector2(1030, 559)
 texture = ExtResource("1_7els5")
+
+[node name="John" parent="." instance=ExtResource("2_pibgj")]
+position = Vector2(147, 79)
+
+[node name="William" parent="." instance=ExtResource("3_wu4is")]
+position = Vector2(630, 224)
