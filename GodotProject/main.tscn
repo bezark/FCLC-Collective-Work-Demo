@@ -9,14 +9,15 @@
 [node name="MAIN" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(1036, 73)
+
+position = Vector2(298, 233)
 texture = ExtResource("1_7els5")
 
-[node name="John" parent="." instance=ExtResource("2_pibgj")]
-position = Vector2(-44, 10)
-
 [node name="William" parent="." instance=ExtResource("3_wu4is")]
-position = Vector2(58, 333)
+position = Vector2(127, -30)
+
+[node name="John" parent="." instance=ExtResource("2_pibgj")]
+position = Vector2(231, -15)
 
 [node name="Node2D" parent="." instance=ExtResource("4_ooo6o")]
 position = Vector2(162, 355)
