@@ -9,17 +9,17 @@
 [node name="MAIN" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(1030, 559)
+position = Vector2(1036, 73)
 texture = ExtResource("1_7els5")
 
 [node name="John" parent="." instance=ExtResource("2_pibgj")]
-position = Vector2(147, 79)
+position = Vector2(-44, 10)
 
 [node name="William" parent="." instance=ExtResource("3_wu4is")]
-position = Vector2(531, 156)
+position = Vector2(58, 333)
 
 [node name="Node2D" parent="." instance=ExtResource("4_ooo6o")]
 position = Vector2(162, 355)
 
 [node name="Yunlong" parent="." instance=ExtResource("5_12xtb")]
-position = Vector2(28, 423)
+position = Vector2(-370, 343)
